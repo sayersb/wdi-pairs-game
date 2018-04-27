@@ -46,7 +46,7 @@ else{
 var flipCard=function(){
 var cardId=this.getAttribute('data-id');
 
-console.log(cardId)
+console.log(cardId);
 cardsInPlay.push(cards[cardId].rank);
 
 this.setAttribute('src', cards[cardId].cardImage);
